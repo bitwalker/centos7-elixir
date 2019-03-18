@@ -11,7 +11,7 @@ ENV REFRESHED_AT=2019-03-18 \
     HOME=/opt/app/ \
     # Set this so that CTRL+G works properly
     TERM=xterm \
-    ERLANG_VERSION=21.2.4 \
+    ERL_VERSION=21.2.4 \
     ELIXIR_VERSION=1.8.1
 
 WORKDIR ${HOME}
